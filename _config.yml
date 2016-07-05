@@ -79,8 +79,8 @@ mathjax: false      #enable mathjax if true
 
 #### Author information
 author:
-  name: yitao      ## e.g. wuchong Author name
-  intro_line1:  "Hello ,I'm Larry Page in Google."    ## your introduction on the bottom of the page
+  name: yingying      ## e.g. yingying Author name
+  intro_line1:  "欢迎来到映映的博客"    ## your introduction on the bottom of the page
   intro_line2:  "This is my blog,believe it or not."  ## the 2nd line
   weibo:      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier:  ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
@@ -105,6 +105,7 @@ toc:
 
 #### Links
 links:
+  天津网: http://www.tianjinwe.com
   码农圈: https://coderq.com
   Jark's Blog: http://wuchong.me
 
@@ -150,7 +151,7 @@ google_cse:
 ## title: search
 ## ---
 baidu_search:     ## http://zn.baidu.com/
-  enable: false
+  enable: true
   id:   ## e.g. "783281470518440642"  for your baidu search id
   site: http://zhannei.baidu.com/cse/search  ## your can change to your site instead of the default site
   
