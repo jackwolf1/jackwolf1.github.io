@@ -3,7 +3,7 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: pygments
+highlighter: rouge
 
 assets: /assets
 baseurl: 
@@ -24,8 +24,8 @@ kramdown:
     - with_toc_data
     
 
-title : Jekyll Jacman
-tagline: A fresh looking and responsive theme for Jekyll
+title : 映映
+tagline: 记录下自己的所作所为
 
 defaults:
   -
@@ -37,9 +37,9 @@ defaults:
 
 ##### Menu
 menu:
-  Home: /
-  Archives: /archives
-  About: /about
+  首页: /
+  文章: /archives
+  关于: /about
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -69,19 +69,20 @@ apple_icon: img/jacman.jpg ## size:114px*114px,please put image into the theme f
 author_img: img/author.jpg ## size:220px*220px.display author avatar picture.if don't want to display,please don't set this.
 banner_img: #img/banner.jpg ## size:1920px*200px+. Banner Picture
 
-#### index post is expanding or not 
+#### index post is expanding or not 首页文章是否展开。默认为展开式，显示 Read More。
 index:
   expand: true           ## default is unexpanding,so you can only see the short description of each post.
-  excerpt_link: Read More  
+  excerpt_link: 查看更多 
 
+###是否在文章页面自动关闭侧边栏
 close_aside: false  #close sidebar in post page if true
 mathjax: false      #enable mathjax if true
 
-#### Author information
+#### Author information作者信息，显示在网站底部。主要包括，文字介绍，以及图片。还有各种你的链接包括微博等等。换成你id就行；
 author:
-  name: yingying      ## e.g. yingying Author name
-  intro_line1:  "欢迎来到映映的博客"    ## your introduction on the bottom of the page
-  intro_line2:  "This is my blog,believe it or not."  ## the 2nd line
+  name: 映映      ## e.g. yingying Author name
+  intro_line1:  "当你排除了所有不可能，"    ## your introduction on the bottom of the page
+  intro_line2:  "无论剩下的是什么，无论它看似多么不可能，它也一定就是真相。"  ## the 2nd line
   weibo:      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier:  ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
   tsina:      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
@@ -96,7 +97,7 @@ author:
   stackoverflow:  ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
 ## if you set them, the corresponding  share button will show on the footer
 
-#### Toc
+#### Toc 目录，是否在文章中显示目录。显示在侧边栏；
 toc:
   article: true   ## show contents in article.
   aside: true     ## show contents in aside.
@@ -106,12 +107,11 @@ toc:
 #### Links
 links:
   天津网: http://www.tianjinwe.com
-  码农圈: https://coderq.com
-  Jark's Blog: http://wuchong.me
 
 
 
-#### Comment
+
+#### Comment评论 国内用多说很好。注册账号，写在这里就ok
 duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
 disqus_shortname:     ## e.g. wuchong   your disqus short name.
 

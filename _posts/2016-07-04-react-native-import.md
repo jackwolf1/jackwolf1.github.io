@@ -17,14 +17,19 @@ React Natvie的官方文档的 Integrating with Existing Apps 已经很详细�
 在现有的Android的build.gradle文件中增加React Natvie的依赖
 点击 Maven Central 查看React Natvie的最新版本，这里的最新版本已经是0.18.0了。
 在build.gradle文件中加入 
+{% highlight null %}
 
 `compile 'com.facebook.react:react-native:+'`  
 
+{% endhighlight %}
 在AndroidManifest.xml加入访问网络的权限
+{% highlight null %}
 
     <uses-permission android:name="android.permission.INTERNET" />
 
+{% endhighlight %}
 将下面的代码复制到项目中（记得在AndroidManifest.xml注册该类）
+{% highlight java linenos%}
 
     public class MyReactActivity extends Activity implements DefaultHardwareBackBtnHandler {
     
@@ -98,6 +103,7 @@ React Natvie的官方文档的 Integrating with Existing Apps 已经很详细�
     }
     }
 
+{% endhighlight %}
 接下来，就要将JS增加到现有的项目。
 在项目的根目录打开命令行(切换到根目录，按住Shift，右击就会出现‘在此处打开命令窗口’)
 输入npm init，居然弹这些玩意出来（靠），一开始我以为出错了，后来是才知道是填东西的（生成package.json这个文件的）

@@ -9,16 +9,20 @@ description: 在react-native中使用crosswalk
 ---
 在react-native中使用crosswalk
 
+
 首先集成react-native，然后将webview替换成crosswalk。项目可以查看我的github。[https://github.com/jackwolf1/android-react-native-crosswalk](https://github.com/jackwolf1/android-react-native-crosswalk)
 因为 crosswalk 包中包含的 javax* 会导致重复引用，需要在包中去掉
+{% highlight null %}
 
     unzip -j xwalk_core_library-${ver}.aar classes.jar
     zip -d classes.jar javax\*
     zip -r xwalk_core_library-${ver}.aar classes.jar
     rm -f classes.jar
 
+{% endhighlight %}
 将新生成的jar包放入libs中，并放入对应的jnilibs，crosswalk导入成功。
 主activity如下：
+{% highlight java %}
 
     public class MainActivity extends ReactActivity {
     
@@ -52,7 +56,10 @@ description: 在react-native中使用crosswalk
     }
     }
 
+{% endhighlight %}
+
 AppReactPackage如下：
+{% highlight java %}
 
     public class AppReactPackage implements ReactPackage {
     Activity mActivity;
@@ -78,7 +85,9 @@ AppReactPackage如下：
     }
     }
 
+{% endhighlight %}
 XWalkViewManager如下：
+{% highlight java %}
 
     public class XWalkViewManager extends SimpleViewManager<XWalkView> {
     
@@ -473,3 +482,5 @@ XWalkViewManager如下：
     ((RXWalkView) webView).cleanupCallbacksAndDestroy();
     }
     }
+
+{% endhighlight %}
