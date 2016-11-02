@@ -15,10 +15,10 @@ description: Swagger UI教程 API 文档神器 搭配Node使用
 
  git clone https://github.com/swagger-api/swagger-ui.git
 
-{% endhighlight %} 
+
 安装 express  
 创建一个空文件夹node_app
-
+{% endhighlight %} 
 {% highlight java %} 
     mkdir node_app
 {% endhighlight %} 
