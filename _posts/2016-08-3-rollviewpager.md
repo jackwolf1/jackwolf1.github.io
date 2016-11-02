@@ -15,12 +15,14 @@ description: 自动轮播的Viewpager
 compile 'com.jude:rollviewpager:1.3.2'
 
 使用
+{% highlight  %} 
 
-<com.jude.rollviewpager.RollPagerView
+    <com.jude.rollviewpager.RollPagerView
     android:layout_width="match_parent"
     android:layout_height="180dp"
     app:rollviewpager_play_delay="3000"/>
 
+{% endhighlight %} 
 
 app:rollviewpager_play_delay="3000" 播放间隔时间，单位ms。填0则不播放。默认为0 app:rollviewpager_hint_gravity="center" 指示器位置,提供left,center,right。默认center
 app:rollviewpager_hint_color="#7c7c7c" 指示器背景颜色.默认黑色
