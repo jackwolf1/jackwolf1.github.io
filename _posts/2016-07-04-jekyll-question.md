@@ -13,7 +13,7 @@ description: jekyll使用时遇到的一些问题
 在运行 jekyll serve 的时候
 
 **问题1**：
-
+{% highlight null %}
 ```
 Dependency Error: Yikes! It looks like you don't have redcarpet or one of its
 dependencies installed. In order to use Jekyll as currently configured, you'll n
@@ -28,19 +28,23 @@ erting '_posts/2014-12-28-first-blog.md':
                     redcarpet
 
 ```
+
+{% endhighlight %}
 需要把`_config.yml`中的redcarpet改为kramdown
 
 **问题2**：
-
+{% highlight null %}
 ```
 
 Deprecation: You appear to have pagination turned on, but you haven’t included the jekyll-paginate gem. Ensure you 
 have gems: [jekyll-paginate] in your configuration file.
 
 ```
+{% endhighlight %}
 因为我们的配置文件`_config.yml`使用了 paginate 配置项，所以需要添加一行：
-
+{% highlight null %}
 ```
 # Gems
 gems: [jekyll-paginate]
 ```
+{% endhighlight %}

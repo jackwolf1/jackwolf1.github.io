@@ -13,17 +13,16 @@ description: Swagger UI教程 API 文档神器 搭配Node使用
 下载Swagger UI（也可以直接下载 zip 文件）
 {% highlight null %}
 
- git clone https://github.com/swagger-api/swagger-ui.git
-
-
+git clone https://github.com/swagger-api/swagger-ui.git
+{% endhighlight %} 
 安装 express  
 创建一个空文件夹node_app
-{% endhighlight %} 
-{% highlight java %} 
+
+{% highlight null %} 
     mkdir node_app
 {% endhighlight %} 
 初始化 node ，创建package.json文件（）
-{% highlight  %} 
+{% highlight null %} 
     cd node_ap
     npm init
     // 下面的看你心情填写
@@ -38,11 +37,11 @@ description: Swagger UI教程 API 文档神器 搭配Node使用
     license: (ISC)
 {% endhighlight %} 
 安装 express
-{% highlight  %}
+{% highlight null %}
     npm install express --save
 {% endhighlight %} 
 创建 index.js
-{% highlight  %}
+{% highlight null %}
     vim index.js
 {% endhighlight %} 
 把下面代码贴如 index.js 中
@@ -58,13 +57,13 @@ description: Swagger UI教程 API 文档神器 搭配Node使用
     });
 {% endhighlight %} 
 在 node_app 中创建空目录 public
-{% highlight  %}
+{% highlight null %}
 
       mkdir public
       cd public
 {% endhighlight %} 
 修改路由
-{% highlight  %}
+{% highlight null  %}
     vim ../index.js
     //在文件第三行插入下面这句话
     app.use('/static', express.static('public'));
@@ -75,7 +74,7 @@ description: Swagger UI教程 API 文档神器 搭配Node使用
 
 
 开启 node
-{% highlight  %}
+{% highlight null %}
     node index.js
 {% endhighlight %} 
 打开浏览器，输入[http://localhost:3000/static/index.html](打开浏览器，输入http://localhost:3000/static/index.html)
