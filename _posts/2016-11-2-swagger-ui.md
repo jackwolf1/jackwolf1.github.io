@@ -11,11 +11,11 @@ description: Swagger UI教程 API 文档神器 搭配Node使用
 # 环境搭建 #
 
 下载Swagger UI（也可以直接下载 zip 文件）
-```ruby
+{% highlight java  %} 
 
     git clone https://github.com/swagger-api/swagger-ui.git
 
-```
+{% endhighlight %} 
 安装 express  
 创建一个空文件夹node_app
 
