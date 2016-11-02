@@ -11,9 +11,9 @@ description: Swagger UI教程 API 文档神器 搭配Node使用
 # 环境搭建 #
 
 下载Swagger UI（也可以直接下载 zip 文件）
-{% highlight ruby  %} 
+{% highlight null %}
 
-    git clone https://github.com/swagger-api/swagger-ui.git
+ git clone https://github.com/swagger-api/swagger-ui.git
 
 {% endhighlight %} 
 安装 express  
