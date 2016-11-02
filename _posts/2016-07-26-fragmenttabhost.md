@@ -3,7 +3,6 @@ layout: post
 title: FragmentTabHost
 tags:
 - ui
-- FragmentTabHost
 categories: ui
 description: FragmentTabHost切换Fragment时避免UI重新加载
 ---
