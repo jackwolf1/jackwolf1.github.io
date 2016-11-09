@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Spring Boot工程结构推荐 
+title: Spring Boot工程结构推荐
 tags:
-- Spring Boot
-categories: Spring Boot
-description: Spring Boot
-
+- SpringBoot
+categories: SpringBoot
+description: SpringBoot
 ---
 
 Spring Boot工程结构推荐 

@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Spring Boot中使用JdbcTemplate访问数据库  
+title: Spring Boot中使用JdbcTemplate访问数据库
 tags:
-- Spring Boot
-categories: Spring Boot
-description: Spring Boot
-
+- SpringBoot
+categories: SpringBoot
+description: SpringBoot
 ---
 
 之前介绍了很多Web层的例子，包括构建RESTful API、使用Thymeleaf模板引擎渲染Web视图，但是这些内容还不足以构建一个动态的应用。通常我们做App也好，做Web应用也好，都需要内容，而内容通常存储于各种类型的数据库，服务端在接收到访问请求之后需要访问数据库获取并处理成展现给用户使用的数据形式。

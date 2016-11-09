@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Spring Boot快速入门 
+title: Spring Boot快速入门
 tags:
-- Spring Boot
-categories: Spring Boot
-description: Spring Boot
-
+- SpringBoot
+categories: SpringBoot
+description: SpringBoot
 ---
 
 Spring Boot快速入门 

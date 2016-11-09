@@ -1,11 +1,10 @@
 ---
 layout: post
-title: swagger-editor 快速REST-API 测试文档编写 
+title: swagger-editor 快速REST-API 测试文档编写
 tags:
 - swagger
 categories: swagger
-description: swagger-editor 快速REST-API 测试文档编写 
-
+description: swagger-editor 快速REST-API 测试文档编写
 ---
 
 # 1. 在线使用 #

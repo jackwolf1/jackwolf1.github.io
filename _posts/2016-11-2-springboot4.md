@@ -2,12 +2,10 @@
 layout: post
 title: Spring Boot构建RESTful API与单元测试
 tags:
-- Spring Boot
-categories: Spring Boot
-description: Spring Boot
-
+- SpringBoot
+categories: SpringBoot
+description: SpringBoot
 ---
-
 Spring Boot构建RESTful API与单元测试
 
 首先，回顾并详细说明一下在快速入门中使用的@Controller、@RestController、@RequestMapping注解。

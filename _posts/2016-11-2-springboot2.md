@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Spring Boot开发Web应用 
+title: Spring Boot开发Web应用
 tags:
-- Spring Boot
-categories: Spring Boot
-description: Spring Boot
-
+- SpringBoot
+categories: SpringBoot
+description: SpringBoot
 ---
 
 Spring Boot开发Web应用 

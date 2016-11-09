@@ -6,7 +6,6 @@ tags:
 categories: ui
 description: 自动轮播的Viewpager
 ---
-
 自动轮播的Viewpager
 
 支持无限循环。 触摸时会暂停播放，直到结束触摸一个延迟周期以后继续播放。 看起来就像这样。指示器可以为点可以为数字还可以自定义，位置也可以变。
@@ -15,7 +14,7 @@ description: 自动轮播的Viewpager
 compile 'com.jude:rollviewpager:1.3.2'
 
 使用
-{% highlight  %} 
+{% highlight  null%} 
 
     <com.jude.rollviewpager.RollPagerView
     android:layout_width="match_parent"
